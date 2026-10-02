@@ -8,6 +8,7 @@ public class HomeController : Controller
 {
     public IActionResult Index()
     {
+        ViewData ["nivel"] = "Diamante";
         return View();
     }
 
